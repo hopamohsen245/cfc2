@@ -1,17 +1,16 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2";
+var prefix = "4";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "514757012513619987"; // ايدي السررفر
-var channel = "514758908489760771";//ايدي الروم
+var server = "504645615750217728"; // ايدي السررفر
+var channel = "514203203311763457";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**plexy
- , plexy , plexy , plexy , plexy, plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , **')
+    client.guilds.get(server).channels.get(channel).send('**plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , plexy , **')
     },305);
 })
 
